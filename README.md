@@ -4,4 +4,4 @@ All the code was written in C++.
 
 The graphs were plotted using [ROOT](https://root.cern).
 
-Find a pdf of the book [here](https://drive.google.com/file/d/1j6dJru3ZYJ6ol4_vsbwvME-bPa25jsZt/view?usp=sharing).
+Find a pdf of the book [here](http://incompleteideas.net/book/RLbook2020.pdf).
