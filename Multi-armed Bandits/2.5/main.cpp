@@ -3,7 +3,7 @@
  * Comparision of the Sample-Average, Incremental Implementation and an Action-Value method with a constant 
  * step-size parameter of 0.1 on a Nonstationary Multiarmed Testbed
  * Plotted using ROOT
- * Compilation: root -l main.c
+ * Compilation: root -l main.cpp
  * Author: Chandradithya J
 ***************/
 

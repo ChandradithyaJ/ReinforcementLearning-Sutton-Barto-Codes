@@ -4,7 +4,7 @@
  * Softmax Action Selector using a Boltzmann Distribution
  * The true rewards are sampled from a Standard Normal Distribution
  * Plotted using ROOT
- * Compilation: root -l main.c
+ * Compilation: root -l main.cpp
  * Author: Chandradithya J
 ***************/
 

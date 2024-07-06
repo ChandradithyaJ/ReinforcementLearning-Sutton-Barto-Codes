@@ -4,7 +4,7 @@
  * step-size parameter of 0.1, epsilon-greedy with sample average, and epsilon-greedy with optimistic
  * initialization on a Nonstationary Multiarmed Testbed
  * Plotted using ROOT
- * Compilation: root -l main.c
+ * Compilation: root -l main.cpp
  * Author: Chandradithya J
 ***************/
 
