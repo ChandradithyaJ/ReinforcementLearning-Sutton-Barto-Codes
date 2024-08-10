@@ -73,7 +73,7 @@ int selectAction(vector<pair<double, int>> actions, double epsilon, double tempe
 	}
 }
 
-void plot(double averageReward_eps1[], double percentOptimalPlays_eps1[], double averageReward_eps2[], double percentOptimalPlays_eps2[], int numPlays, string xAxis, string yAxis){
+void plot(double averageReward_eps1[], double percentOptimalPlays_eps1[], double averageReward_eps2[], double percentOptimalPlays_eps2[], int numPlays){
 	auto canvas = new TCanvas("canvas","canvas",600, 400);
 
 	auto graph1 = new TGraph(numPlays+1, averageReward_eps1);
@@ -157,5 +157,5 @@ int main(){
 		else percentOptimalPlays_eps2[i] = (percentOptimalPlays_eps2[i-1]*(i-1))/i;
 	}
 
-	plot(averageReward_eps1, percentOptimalPlays_eps1, averageReward_eps2, percentOptimalPlays_eps2, numPlays, "Plays", "Average Reward");
+	plot(averageReward_eps1, percentOptimalPlays_eps1, averageReward_eps2, percentOptimalPlays_eps2, numPlays);
 }
